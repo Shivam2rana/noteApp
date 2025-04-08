@@ -1,4 +1,4 @@
-package com.example.noteapp.screens
+package com.example.noteapp.presentation.screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text

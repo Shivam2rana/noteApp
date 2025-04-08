@@ -1,4 +1,4 @@
-package com.example.noteapp.navigations
+package com.example.noteapp.presentation.navigations
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
@@ -18,7 +18,7 @@ sealed class Screens(
     object AddNotesScreen : Screens("addNotes", "Add Notes", true, true, Icons.Default.Edit)
 
     companion object {
-        val bottomBarScreens = listOf(HomeScreen, SettingScreen)
+        val bottomBarScreens = listOf(HomeScreen, AddNotesScreen, SettingScreen)
         val drawerScreens = listOf(HomeScreen, AddNotesScreen, SettingScreen)
     }
 

@@ -1,13 +1,13 @@
-package com.example.noteapp.navigations
+package com.example.noteapp.presentation.navigations
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.noteapp.screens.AddNotesScreen
-import com.example.noteapp.screens.HomeScreen
-import com.example.noteapp.screens.SettingScreen
+import com.example.noteapp.presentation.screens.AddNotesScreen
+import com.example.noteapp.presentation.screens.HomeScreen
+import com.example.noteapp.presentation.screens.SettingScreen
 
 
 @Composable
