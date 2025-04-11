@@ -7,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.noteapp.presentation.screens.AddNotesScreen
 import com.example.noteapp.presentation.screens.HomeScreen
+import com.example.noteapp.presentation.screens.NewsScreen
 import com.example.noteapp.presentation.screens.SettingScreen
 
 
@@ -16,5 +17,6 @@ fun AppNavGraph(navController: NavHostController, modifier: Modifier = Modifier)
         composable(Screens.HomeScreen.route) { HomeScreen() }
         composable(Screens.AddNotesScreen.route) { AddNotesScreen() }
         composable(Screens.SettingScreen.route) { SettingScreen() }
+        composable(Screens.NewsScreen.route) { NewsScreen() }
     }
 }

@@ -1,6 +1,6 @@
 package com.example.noteapp.domain.util
 
-import com.example.noteapp.data.NoteEntity
+import com.example.noteapp.data.local.NoteEntity
 import com.example.noteapp.domain.model.Note
 
 

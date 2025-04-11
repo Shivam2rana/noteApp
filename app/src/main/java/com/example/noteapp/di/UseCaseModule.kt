@@ -1,6 +1,6 @@
 package com.example.noteapp.di
 
-import com.example.noteapp.data.NoteDao
+import com.example.noteapp.data.local.NoteDao
 import com.example.noteapp.domain.repo.NoteRepository
 import com.example.noteapp.domain.repo.NoteRepositoryImpl
 import com.example.noteapp.domain.usecase.DeleteNote

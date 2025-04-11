@@ -61,17 +61,28 @@ dependencies {
 
     implementation(libs.androidx.navigation.compose)
 
-    // Room
+
     implementation (libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
     implementation (libs.androidx.room.ktx)
 
-    // Hilt
+
     implementation (libs.hilt.android)
     ksp (libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 
-    // Lifecycle & ViewModel
+
     implementation (libs.androidx.lifecycle.viewmodel.compose)
     implementation (libs.androidx.lifecycle.runtime.ktx.v262)
+
+
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+
+
+    implementation (libs.androidx.paging.runtime)
+    implementation (libs.androidx.paging.compose)
+
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
 }

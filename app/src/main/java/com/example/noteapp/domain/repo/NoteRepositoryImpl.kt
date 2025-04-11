@@ -1,6 +1,6 @@
 package com.example.noteapp.domain.repo
 
-import com.example.noteapp.data.NoteDao
+import com.example.noteapp.data.local.NoteDao
 import com.example.noteapp.domain.model.Note
 import com.example.noteapp.domain.util.toDomain
 import com.example.noteapp.domain.util.toEntity
