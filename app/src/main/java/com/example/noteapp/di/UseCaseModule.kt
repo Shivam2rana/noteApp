@@ -2,7 +2,7 @@ package com.example.noteapp.di
 
 import com.example.noteapp.data.local.NoteDao
 import com.example.noteapp.domain.repo.NoteRepository
-import com.example.noteapp.domain.repo.NoteRepositoryImpl
+import com.example.noteapp.data.repoImpl.NoteRepositoryImpl
 import com.example.noteapp.domain.usecase.DeleteNote
 import com.example.noteapp.domain.usecase.GetNotes
 import com.example.noteapp.domain.usecase.InsertNote
